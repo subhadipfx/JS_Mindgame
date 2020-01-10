@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 2,
+    "name" : "MindGame",
+    "description": "Memory Testing Game",
+    "version" : "1.0.0",
+    "browser_action" : {
+        "default_popup" : "popup.html"
+    },
+    "permissions" : ["activeTab"],
+    "content_security_policy": " 'script-src' 'sha256-VKdUv2rBpmAryhGcWBnEps+gkxjLXqVGN1l5phMRwTs='"
+}
